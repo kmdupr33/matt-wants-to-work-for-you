@@ -1,0 +1,14 @@
+{
+  "name": "matt-wants-to-work-for-you",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "smooth-scroll": "github:cferdinandi/smooth-scroll"
+  }
+}

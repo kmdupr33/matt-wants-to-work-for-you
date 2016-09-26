@@ -1,0 +1,106 @@
+h1 {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2em;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+  color: #6B6F6F;
+}
+
+section {
+  font-size: 1.5em;
+}
+
+a {
+  color: #69BE8E;
+}
+
+.green {
+  background: #69BE8E;
+}
+
+.full {
+  min-height: 100vh;
+}
+
+.row, .centered-row, .start-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.centered-row {
+  align-items: center;
+}
+
+.start-row {
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.stack {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand {
+  color: #69BE8E;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.card {
+  padding: 25px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 4px 0 rgba(0,0,0,0.1);
+}
+
+.blue {
+  font-weight: 800;
+  color: #42ABC5;
+}
+
+.aspiration {
+  margin-bottom: 45px;
+}
+
+.btn {
+  background: #69BE8E;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.constrained, .copy {
+  max-width: 400px;
+}
+
+.btn:hover {
+  box-shadow: 0 5px 4px 0 rgba(0,0,0,0.1);
+}
+
+.copy {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+}
+.images img {
+  margin: 20px;
+}
