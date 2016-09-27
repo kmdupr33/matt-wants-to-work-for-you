@@ -22,6 +22,10 @@ a {
   color: #69BE8E;
 }
 
+.small-margin {
+  margin: 20px;
+}
+
 .green {
   background: #69BE8E;
 }
