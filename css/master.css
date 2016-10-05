@@ -61,11 +61,17 @@ a {
   font-weight: 900;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .title {
   margin-bottom: 10px;
 }
 
-.subtitle {  
+.subtitle {
   margin-top: 0px;
   font-size: 1em;
 }
