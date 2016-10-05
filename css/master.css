@@ -1,6 +1,5 @@
 h1 {
   font-weight: 700;
-  font-style: italic;
   font-size: 4em;
 }
 
@@ -10,8 +9,8 @@ h2 {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Lato';
-  color: #6B6F6F;
+  font-family: sans-serif;
+  color: #1f2526;
 }
 
 section {
@@ -19,7 +18,7 @@ section {
 }
 
 a {
-  color: #69BE8E;
+  color: #0095c7;
 }
 
 .small-margin {
@@ -27,7 +26,7 @@ a {
 }
 
 .green {
-  background: #69BE8E;
+  background: #0095c7;
 }
 
 .full {
@@ -58,9 +57,17 @@ a {
 }
 
 .brand {
-  color: #69BE8E;
+  color: #0095c7;
   font-weight: 900;
-  font-style: italic;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.subtitle {  
+  margin-top: 0px;
+  font-size: 1em;
 }
 
 .card {
@@ -73,7 +80,7 @@ a {
 
 .blue {
   font-weight: 800;
-  color: #42ABC5;
+  color: #0095c7;
 }
 
 .aspiration {
@@ -81,7 +88,7 @@ a {
 }
 
 .btn {
-  background: #69BE8E;
+  background: #f5a623;
   text-decoration: none;
   color: white;
   padding: 15px;
